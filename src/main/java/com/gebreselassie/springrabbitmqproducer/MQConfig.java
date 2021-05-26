@@ -13,7 +13,7 @@ public class MQConfig {
 
     public static final String QUEUE_NAME = "message_queue";
     public static final String EXCHANGE_NAME = "message_exchange";
-    private static final String ROUTING_KEY = "message_routingKey";
+    public static final String ROUTING_KEY = "message_routingKey";
 
     @Bean
     public Queue queue(){
