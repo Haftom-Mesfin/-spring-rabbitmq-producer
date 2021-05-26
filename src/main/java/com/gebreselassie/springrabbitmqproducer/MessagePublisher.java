@@ -1,5 +1,7 @@
-package com.gebreselassie.springrabbitmqproducer;
+package com.gebreselassie.controller;
 
+import com.gebreselassie.model.CustomMessage;
+import com.gebreselassie.springrabbitmqproducer.MQConfig;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
